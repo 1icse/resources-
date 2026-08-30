@@ -162,12 +162,28 @@ button {
 
 .logo {
 
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 3px;
+
     font-size: 18px;
 
     font-weight: 600;
 
 }
 
+
+.logo span {
+
+    font-size: 10px;
+
+    font-weight: 400;
+
+    color: var(--muted);
+
+}
 
 .top-actions {
 
