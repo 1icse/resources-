@@ -182,11 +182,11 @@ button {
 
 .logo span {
 
-    font-size: 18px;
+    font-size: 30px;
 
     font-weight: 600;
 
-    color: var(--muted);
+    color: var;
 
 }
 
