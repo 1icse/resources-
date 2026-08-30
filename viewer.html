@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>PDF Viewer | ICSE Resources</title>
+
+    <link rel="stylesheet"
+        href="css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body class="viewer-body">
+
+
+    <!-- Viewer Header -->
+
+    <header class="viewer-header">
+
+        <button class="back-button"
+            id="viewerBackButton">
+
+            <i class="fa-solid fa-arrow-left"></i>
+
+        </button>
+
+
+        <h2 id="viewerTitle">
+
+            Loading PDF...
+
+        </h2>
+
+
+        <button class="icon-button"
+            id="openDriveButton"
+            title="Open PDF">
+
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+        </button>
+
+    </header>
+
+
+
+    <!-- PDF -->
+
+    <main class="pdf-container">
+
+        <iframe
+            id="pdfViewer"
+            title="PDF Viewer">
+
+        </iframe>
+
+    </main>
+
+
+    <script src="js/resources.js"></script>
+
+    <script src="js/viewer.js"></script>
+
+</body>
+
+</html>
