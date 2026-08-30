@@ -3,8 +3,29 @@
 ========================= */
 
 :root {
+    --bg: #12141a;
+    --card: rgba(28,31,40,0.78);
+    --text: #f2f4f8;
+    --muted: #a6adbb;
+    --border: rgba(255,255,255,0.1);
 
-    --bg: #f6f7fb;
+    --shadow:
+        0 10px 40px rgba(0,0,0,0.35);
+
+    --accent: #4f46e5;
+    --accent-soft: rgba(120,110,255,0.18);
+   
+
+}
+
+
+/* =========================
+   DARK MODE
+========================= */
+
+body.light {
+
+        --bg: #f6f7fb;
 
     --card: rgba(255,255,255,0.72);
 
@@ -20,33 +41,7 @@
    --accent: #1f5f75;
    
   --accent-soft: rgba(31,95,117,0.14);
-
 }
-
-
-/* =========================
-   DARK MODE
-========================= */
-
-body.dark {
-
-    --bg: #12141a;
-
-    --card: rgba(28,31,40,0.78);
-
-    --text: #f2f4f8;
-
-    --muted: #a6adbb;
-
-    --border: rgba(255,255,255,0.1);
-
-    --shadow:
-        0 10px 40px rgba(0,0,0,0.35);
-
-    --accent-soft: rgba(120,110,255,0.18);
-
-}
-
 
 /* =========================
    GLOBAL
@@ -189,7 +184,7 @@ button {
 
     font-size: 10px;
 
-    font-weight: 400;
+    font-weight: 500;
 
     color: var(--muted);
 
