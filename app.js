@@ -12,9 +12,9 @@ function loadTheme() {
         localStorage.getItem("theme");
 
 
-    if (savedTheme === "dark") {
+    if (savedTheme === "light") {
 
-        document.body.classList.add("dark");
+        document.body.classList.add("light");
 
     }
 
@@ -28,25 +28,24 @@ if (themeButton) {
 
     themeButton.addEventListener("click", () => {
 
-        document.body.classList.toggle("dark");
+        document.body.classList.toggle("light");
 
 
-        const isDark =
-            document.body.classList.contains("dark");
+        const isLight =
+            document.body.classList.contains("light");
 
 
         localStorage.setItem(
 
             "theme",
 
-            isDark ? "dark" : "light"
+            isLight ? "light" : "dark"
 
         );
 
     });
 
 }
-
 
 /* =========================
    SEARCH
