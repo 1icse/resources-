@@ -288,11 +288,11 @@ const resources = {
                     { name: "Specimen biology 2027", type: "pdf", id: "1IueToEdugWjM-HNuc_2tLSm9Zpkp-b_V" },
                     { name: "Specimen chemistry 2027", type: "pdf", id: "1U7bCjpnBp6axbVH8C7VbVc6s9HExCKoj" },
                     { name: "Specimen english language 2027", type: "pdf", id: "1n-2OGNNwBUXOttOCe99cMJkzlpFCmEZt" },
-                    { name: "Specimen english literature 2027", type: "pdf", id: "/1GzxZHVBp3czj_w8pDlqPHvXtHSc-u8MS" },
+                    { name: "Specimen english literature 2027", type: "pdf", id: "1GzxZHVBp3czj_w8pDlqPHvXtHSc-u8MS" },
                     { name: "Specimen geography 2027", type: "pdf", id: "1ubv8bpbIFkGxCW3VHJWvdGa3uejR7lHH" },
                     { name: "Specimen history 2027", type: "pdf", id: "1ZBd3S50HT-hEkYFiZONdXD9z2zpZ2wlZ" },
                     { name: "Specimen maths 2027", type: "pdf", id: "1ZBd3S50HT-hEkYFiZONdXD9z2zpZ2wlZ" },
-                    { name: "Specimen physics 2027", type: "pdf", id: "73By6jML-xgZF6XSEw7ixH1eTxCCLPBp" },
+                    { name: "Specimen physics 2027", type: "pdf", id: "173By6jML-xgZF6XSEw7ixH1eTxCCLPBp" },
                     
                 ]
             }
