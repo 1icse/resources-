@@ -21,6 +21,9 @@ const viewerBackButton =
 const openDriveButton =
     document.getElementById("openDriveButton");
 
+const downloadButton =
+    document.getElementById("downloadButton");
+
 
 function findPDF(node, id) {
 
@@ -98,7 +101,7 @@ else {
         pdfURL;
 
 
-    openDriveButton.addEventListener(
+        openDriveButton.addEventListener(
 
         "click",
 
@@ -116,6 +119,24 @@ else {
 
     );
 
+
+    downloadButton.addEventListener(
+
+        "click",
+
+        () => {
+
+            window.open(
+
+                `https://drive.google.com/uc?export=download&id=${selectedPDF.id}`,
+
+                "_blank"
+
+            );
+
+        }
+
+    );
 }
 
 
