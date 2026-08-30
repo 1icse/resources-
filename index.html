@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ICSE Resources</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background-glow"></div>
+
+    <!-- Top Navigation -->
+    <header class="topbar">
+
+        <a href="index.html" class="logo">
+            ICSE Resources
+        </a>
+
+        <div class="top-actions">
+
+            <button class="icon-button" id="searchButton" aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button class="icon-button" id="themeButton" aria-label="Toggle theme">
+                <i class="fa-solid fa-sun"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="searchOverlay">
+
+        <div class="search-box">
+
+            <div class="search-header">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search resources..."
+                    autocomplete="off"
+                >
+
+                <button id="closeSearch">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+            </div>
+
+            <div id="searchResults" class="search-results"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Main Content -->
+    <main class="home-container">
+
+        <section class="hero">
+
+            <h1>ICSE Resources</h1>
+
+            <p>
+                Your one-stop hub for ICSE study materials,
+                previous year papers and resources.
+            </p>
+
+        </section>
+
+
+        <!-- Main Cards -->
+        <section class="main-cards">
+
+            <a href="explorer.html?section=cisce" class="main-card">
+
+                <div class="card-icon">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+
+                <h2>CISCE Resources</h2>
+
+                <p>
+                    Previous year papers, specimen papers,
+                    CFQs and official resources.
+                </p>
+
+            </a>
+
+
+            <a href="explorer.html?section=study" class="main-card">
+
+                <div class="card-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <h2>Study Materials</h2>
+
+                <p>
+                    Notes, guides and useful study materials
+                    for ICSE students.
+                </p>
+
+            </a>
+
+        </section>
+
+
+        <!-- Quiz -->
+        <a href="#" class="quiz-button">
+
+            <div class="quiz-icon">
+                <i class="fa-solid fa-brain"></i>
+            </div>
+
+            <span>Interactive Quizzes</span>
+
+        </a>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>© 2026 ICSE Resources</p>
+
+        <div class="social-links">
+
+            <a href="#" aria-label="Discord">
+                <i class="fa-brands fa-discord"></i>
+            </a>
+
+            <a href="#" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
