@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://1icse.github.io/resources-/sitemap.xml
