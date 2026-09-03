@@ -296,17 +296,6 @@ const resources = {
                     
                 ]
             }
-            {
-    name: "Everything in Drive ",
-    type: "folder",
-    children: [
-        {
-            name: "CISCE Resources Drive",
-            type: "link",
-            url: "https://drive.google.com/drive/folders/1VEEIVm2tM83a3IdA-VPDiAFinfXI2gT4"
-        }
-    ]
-            }
 
         ]
 
